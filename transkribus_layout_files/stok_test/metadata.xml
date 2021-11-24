@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>500590</docId>
+    <title>stok_test</title>
+    <uploadTimestamp>1601617792328</uploadTimestamp>
+    <uploader>thepezod@gmail.com</uploader>
+    <uploaderId>68754</uploaderId>
+    <nrOfPages>11</nrOfPages>
+    <pageId>20785606</pageId>
+    <url>https://files.transkribus.eu/Get?id=MGMIUGTYHFBPUHEHSGRVKBHW&amp;fileType=view</url>
+    <thumbUrl>https://files.transkribus.eu/Get?id=MGMIUGTYHFBPUHEHSGRVKBHW&amp;fileType=thumb</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_500590</fimgStoreColl>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>76837</colId>
+            <colName>Stok_kangyur</colName>
+            <description>created by thepezod@gmail.com</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+</trpDocMetadata>

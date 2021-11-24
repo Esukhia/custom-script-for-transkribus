@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/mnt/transkribus/LA/DEA/URO/LA_ara_news_aru_mix_90_ema.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-10-02T11:19:27.860+05:30</Created>
+        <LastChange>2020-10-02T07:53:18.623+02:00</LastChange>
+        <TranskribusMetadata docId="500590" pageId="20785624" pageNr="11" tsid="42423364" status="IN_PROGRESS" userId="68754" imgUrl="https://files.transkribus.eu/Get?id=VQCYJESAKDJLMANTCGFSBGOZ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RFBCQEVABSJSYWCHVWXMGZXI" imageId="15930809"/>
+    </Metadata>
+    <Page imageFilename="37990024.png" imageWidth="2204" imageHeight="453">
+<TextRegion id = "r1">
+<Coords points = "260,84 260,358 1806,358 1806,84"/>
+<TextLine id="r1l0">
+<Coords points="260,141 1806,141 1806,91 260,91"/>
+<Baseline points="260,116 1806,116"/>
+<TextEquiv>
+<Unicode>ཡིན་དང་། །མཐར་གནས་པ་ཡི་བཞི་པ་དང་། །དེ་ཉིད་ཀྱི་ནི་གཉིས་པ་དང་། །སུམ་ཅུ་པ་ནི་ཡང་དག་བླང་། །དེ་བཞིན་ཉི་ཤུ་དྲུག་པ་ཉིད། །དེ་དག་ཐམས་ཅད་ལེགས་བསྡུས་ལ། །དེ་བཞིན་བརྒྱ་ཡི</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l1">
+<Coords points="260,178 1806,178 1806,128 260,128"/>
+<Baseline points="260,153 1806,153"/>
+<TextEquiv>
+<Unicode>་ཕྱེད་ཕྱེད་ཡང་། །དེ་ནས་སུམ་ཅུ་རྩ་གསུམ་གཟུང་། །དང་པོའི་དང་པོ་ཉིད་དག་དང་། །མཐར་གནས་པ་ཡི་གསུམ་པ་དང་། །དང་པོ་ཡི་ནི་གསུམ་པ་དང་། །སུམ་ཅུ་རྩ་གཉིས</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l2">
+<Coords points="260,214 1806,214 1806,164 260,164"/>
+<Baseline points="260,189 1806,189"/>
+<TextEquiv>
+<Unicode>་ཉིད་དག་དང་། །བཞི་པ་ཡི་ནི་ལྔ་པ་དང་། །ལྔ་པ་ཡི་ཡང་བཞི་པ་དང་། །མཐར་གནས་པ་ཡི་དང་པོ་གང་། །གཉིས་པ་ཡི་ནི་གསུམ་པ་དང་། །གསུམ་པའི་དང་པོ་གང་ཡིན་དང་། །ལྔ་པ་ཡི་ཡང་ལྔ་པ་</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l3">
+<Coords points="260,252 1806,252 1806,202 260,202"/>
+<Baseline points="260,227 1806,227"/>
+<TextEquiv>
+<Unicode>དང་། །དང་པོ་ཡི་ཡང་དང་པོ་དང་། །དེ་བཞིན་བཅུ་གཅིག་པ་ཉིད་དང་། །དེ་བཞིན་མཁས་པས་བཅུ་དྲུག་པ། །གསུམ་པའི་དང་པོ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་དྲུག་པ། །བཞི་པའི་གསུམ་པ་གང་</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l4">
+<Coords points="260,290 1806,290 1806,240 260,240"/>
+<Baseline points="260,265 1806,265"/>
+<TextEquiv>
+<Unicode>ཡིན་དང་། །ཨུཥྨ་ཎཱ་ཡི་གཉིས་པ་ཉིད། །དང་པོའི་དང་པོ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་བདུན་པ། །ཉི་ཤུ་རྩ་བརྒྱད་པ་ཡང་ངོ་། །དང་པོ་ཡི་ནི་གསུམ་པ་དང་། །ལྔ་པ་ཡི་ཡང་བཞི་པ་དང་། །དེ</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l5">
+<Coords points="260,329 1806,329 1806,279 260,279"/>
+<Baseline points="260,304 1806,304"/>
+<TextEquiv>
+<Unicode>་བཞིན་སུམ་ཅུ་རྩ་གཅིག་བླང་། །བཅྭ་ལྔ་པ་ནི་ཉིད་དག་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་ལྔ་པ། །དང་པོའི་གཉིས་པ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་དྲུག་པ། །ཡི་གེ་སུམ་ཅུ་རྩ་གཉིས་དང་། །ཨུཥྨཱ་ཎཱ་ཡི་ཐ་མ་ཉིད། །</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l6">
+<Coords points="260,367 1806,367 1806,317 260,317"/>
+<Baseline points="260,342 1806,342"/>
+<TextEquiv>
+<Unicode>སུམ་ཅུ་རྩ་གཉིས་པ་ཉིད་དང་། །ལྔ་པ་ཡི་ནི་བཞི་པ་དང་། །གཉིས་པ་ཡི་ནི་གསུམ་པ་དང་། །ལྔ་པ་ཡི་ནི་བཞི་པ་དང་། །ཨུཥྨཱ་ཎཱ་ཡི་གསུམ་པ་དང་། །གཞན་ཡང་ཉི་ཤུ་རྩ་བདུན་པ། །ཨནྟསྠཱ་ཡི་</Unicode>
+</TextEquiv>
+</TextLine>
+<TextEquiv>
+<Unicode>ཡིན་དང་། །མཐར་གནས་པ་ཡི་བཞི་པ་དང་། །དེ་ཉིད་ཀྱི་ནི་གཉིས་པ་དང་། །སུམ་ཅུ་པ་ནི་ཡང་དག་བླང་། །དེ་བཞིན་ཉི་ཤུ་དྲུག་པ་ཉིད། །དེ་དག་ཐམས་ཅད་ལེགས་བསྡུས་ལ། །དེ་བཞིན་བརྒྱ་ཡི
+་ཕྱེད་ཕྱེད་ཡང་། །དེ་ནས་སུམ་ཅུ་རྩ་གསུམ་གཟུང་། །དང་པོའི་དང་པོ་ཉིད་དག་དང་། །མཐར་གནས་པ་ཡི་གསུམ་པ་དང་། །དང་པོ་ཡི་ནི་གསུམ་པ་དང་། །སུམ་ཅུ་རྩ་གཉིས
+་ཉིད་དག་དང་། །བཞི་པ་ཡི་ནི་ལྔ་པ་དང་། །ལྔ་པ་ཡི་ཡང་བཞི་པ་དང་། །མཐར་གནས་པ་ཡི་དང་པོ་གང་། །གཉིས་པ་ཡི་ནི་གསུམ་པ་དང་། །གསུམ་པའི་དང་པོ་གང་ཡིན་དང་། །ལྔ་པ་ཡི་ཡང་ལྔ་པ་
+དང་། །དང་པོ་ཡི་ཡང་དང་པོ་དང་། །དེ་བཞིན་བཅུ་གཅིག་པ་ཉིད་དང་། །དེ་བཞིན་མཁས་པས་བཅུ་དྲུག་པ། །གསུམ་པའི་དང་པོ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་དྲུག་པ། །བཞི་པའི་གསུམ་པ་གང་
+ཡིན་དང་། །ཨུཥྨ་ཎཱ་ཡི་གཉིས་པ་ཉིད། །དང་པོའི་དང་པོ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་བདུན་པ། །ཉི་ཤུ་རྩ་བརྒྱད་པ་ཡང་ངོ་། །དང་པོ་ཡི་ནི་གསུམ་པ་དང་། །ལྔ་པ་ཡི་ཡང་བཞི་པ་དང་། །དེ
+་བཞིན་སུམ་ཅུ་རྩ་གཅིག་བླང་། །བཅྭ་ལྔ་པ་ནི་ཉིད་དག་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་ལྔ་པ། །དང་པོའི་གཉིས་པ་གང་ཡིན་དང་། །དེ་བཞིན་ཉི་ཤུ་རྩ་དྲུག་པ། །ཡི་གེ་སུམ་ཅུ་རྩ་གཉིས་དང་། །ཨུཥྨཱ་ཎཱ་ཡི་ཐ་མ་ཉིད། །
+སུམ་ཅུ་རྩ་གཉིས་པ་ཉིད་དང་། །ལྔ་པ་ཡི་ནི་བཞི་པ་དང་། །གཉིས་པ་ཡི་ནི་གསུམ་པ་དང་། །ལྔ་པ་ཡི་ནི་བཞི་པ་དང་། །ཨུཥྨཱ་ཎཱ་ཡི་གསུམ་པ་དང་། །གཞན་ཡང་ཉི་ཤུ་རྩ་བདུན་པ། །ཨནྟསྠཱ་ཡི་
+</Unicode>
+</TextEquiv>
+</TextRegion>
+</Page>
+</PcGts>

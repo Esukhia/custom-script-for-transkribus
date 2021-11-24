@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/mnt/transkribus/LA/DEA/URO/LA_ara_news_aru_mix_90_ema.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-10-02T11:19:27.478+05:30</Created>
+        <LastChange>2020-10-02T07:53:08.817+02:00</LastChange>
+        <TranskribusMetadata docId="500590" pageId="20785606" pageNr="1" tsid="42423336" status="IN_PROGRESS" userId="68754" imgUrl="https://files.transkribus.eu/Get?id=MGMIUGTYHFBPUHEHSGRVKBHW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RBGLGJGVVDVWJXJMNQWZKZRM" imageId="15930791"/>
+    </Metadata>
+    <Page imageFilename="37990014.png" imageWidth="2204" imageHeight="453">
+<TextRegion id = "r1">
+<Coords points = "524,61 524,353 1788,353 1788,61"/>
+<TextLine id="r1l0">
+<Coords points="524,110 1788,110 1788,60 524,60"/>
+<Baseline points="524,85 1788,85"/>
+<TextEquiv>
+<Unicode>་ཡི་ཚུལ་ལས་ངེས་འབྱུང་རྣམས། །དམ་ཚིག་སྤྱོད་པའི་སྤྱོད་ཡུལ་ཡིན། །འཇིག་རྟེན་གསུམ་དུ་རྙེད་དཀའ་བ། །ཐོག</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l1">
+<Coords points="524,157 1788,157 1788,107 524,107"/>
+<Baseline points="524,132 1788,132"/>
+<TextEquiv>
+<Unicode>་མ་དབུས་མཐར་ཡང་དག་གནས། །བསྲུབ་བྱ་སྲུབ་བྱེད་ཡང་དག་སྦྱར། །ཇི་ལྟ་བ་ནི་དེ་བཞིན་དུ། །སྔགས་བཟླས་བསམ</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l2">
+<Coords points="524,209 1788,209 1788,159 524,159"/>
+<Baseline points="524,184 1788,184"/>
+<TextEquiv>
+<Unicode>་གཏན་ལ་སོགས་ལྡན། །སྦྱོར་ཉིད་ཆོ་གའི་ཡེ་ཤེས་ནི། །རྣལ་འབྱོར་བླ་ན་མེད་པ་ཡི། །རྒྱུད་ལས་གསུངས་པ་མཉན་པར་གྱིས། །དབུགས་འབྱིན་བར</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l3">
+<Coords points="524,262 1788,262 1788,212 524,212"/>
+<Baseline points="524,237 1788,237"/>
+<TextEquiv>
+<Unicode>་མ་མཆོག་དག་དང་། །དྲི་ཡི་ཆུ་དང་བཅས་པས་ཀྱང་། །རྣལ་འབྱོར་པས་དུས་ཁྱད་པར་དུ། །རིགས་ལྡན་རྟག་ཏུ་མཆོད་པར་བྱ། །</Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l4">
+<Coords points="524,312 1788,312 1788,262 524,262"/>
+<Baseline points="524,287 1788,287"/>
+<TextEquiv>
+<Unicode>ཕོ་ཉ་ལྷན་ཅིག་སྐྱེས་གྲུབ་མ། །མཆོག་དང་འབྲིང་དང་ཐ་མ་སྟེ། །ཡིད་ནི་ནང་དུ་ཆུད་པ་ཡིས། །འདོད་པ་ཡི་ནི་དངོས་གྲུབ་བྱ། །</Unicode>
+</TextEquiv>
+</TextLine>
+<TextEquiv>
+<Unicode>་ཡི་ཚུལ་ལས་ངེས་འབྱུང་རྣམས། །དམ་ཚིག་སྤྱོད་པའི་སྤྱོད་ཡུལ་ཡིན། །འཇིག་རྟེན་གསུམ་དུ་རྙེད་དཀའ་བ། །ཐོག
+་མ་དབུས་མཐར་ཡང་དག་གནས། །བསྲུབ་བྱ་སྲུབ་བྱེད་ཡང་དག་སྦྱར། །ཇི་ལྟ་བ་ནི་དེ་བཞིན་དུ། །སྔགས་བཟླས་བསམ
+་གཏན་ལ་སོགས་ལྡན། །སྦྱོར་ཉིད་ཆོ་གའི་ཡེ་ཤེས་ནི། །རྣལ་འབྱོར་བླ་ན་མེད་པ་ཡི། །རྒྱུད་ལས་གསུངས་པ་མཉན་པར་གྱིས། །དབུགས་འབྱིན་བར
+་མ་མཆོག་དག་དང་། །དྲི་ཡི་ཆུ་དང་བཅས་པས་ཀྱང་། །རྣལ་འབྱོར་པས་དུས་ཁྱད་པར་དུ། །རིགས་ལྡན་རྟག་ཏུ་མཆོད་པར་བྱ། །
+ཕོ་ཉ་ལྷན་ཅིག་སྐྱེས་གྲུབ་མ། །མཆོག་དང་འབྲིང་དང་ཐ་མ་སྟེ། །ཡིད་ནི་ནང་དུ་ཆུད་པ་ཡིས། །འདོད་པ་ཡི་ནི་དངོས་གྲུབ་བྱ། །
+</Unicode>
+</TextEquiv>
+</TextRegion>
+</Page>
+</PcGts>
