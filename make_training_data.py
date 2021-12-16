@@ -268,7 +268,7 @@ def get_head(xml):
     return head
 
 
-def serialize_change(sim_box, texts, file_name, head, pecha_id):
+def serialize_change(sim_box, texts, file_name, head, output_page_dir):
     transcribe = ""
     result = head
     for i, (line, text) in enumerate(zip(sim_box.items(), texts)):
@@ -280,22 +280,20 @@ def serialize_change(sim_box, texts, file_name, head, pecha_id):
         result += f"<TextEquiv>\n<Unicode>{texts[i]}</Unicode>\n</TextEquiv>\n</TextLine>\n"
         transcribe += texts[i] + "\n"
     result += f"<TextEquiv>\n<Unicode>{transcribe}</Unicode>\n</TextEquiv>\n</TextRegion>\n</Page>\n</PcGts>"
-    output_path = Path(f"./postprocessing_output/{pecha_id}/page/{file_name}.xml")
-    output_path.write_text(result, encoding="utf-8")
+    output_page_path = (output_page_dir / f"{file_name}.xml")
+    output_page_path.write_text(result, encoding="utf-8")
 
 
-def get_images(image_path, pecha_id):
+def get_images(image_path, output_dir):
     images = [e for e in image_path.rglob("*.png")]
-    output_path = Path(f"./postprocessing_output/{pecha_id}")
     for image in images:
-        copyfile(image, output_path / f"{image.stem}.jpg")
+        copyfile(image, output_dir / f"{image.stem}.jpg")
 
 
-def get_res_file(res_path, pecha_id):
+def get_res_file(res_path, output_dir):
     res_files = [e for e in res_path.glob("*.xml")]
-    output_path = Path(f"./postprocessing_output/{pecha_id}")
     for res_file in res_files:
-        copyfile(res_file, output_path / f"{res_file.stem}.xml")
+        copyfile(res_file, output_dir / f"{res_file.stem}.xml")
 
 
 def get_transcript_list(text):
@@ -310,16 +308,22 @@ def get_transcript(text):
             result.append(line)
     return result
 
+def make_output_dir(pecha_id):
+    Path(f'./postprocessing_output/{pecha_id}').mkdir(exist_ok=True)
+    return Path(f'./postprocessing_output/{pecha_id}')
 
 def apply_transcript(pecha_id):
+    output_resource_dir = make_output_dir(pecha_id)
+    (output_resource_dir / "page").mkdir(exist_ok=True)
+    output_layout_dir = (output_resource_dir / "page")
     try:
-        input_path = Path(f"./transkribus_layout_files/{pecha_id}/page")
-        manual_folder_path = Path(f"./transkribus_layout_files/{pecha_id}")
+        layout_path = Path(f"./transkribus_layout_files/{pecha_id}/page")
+        resource_path = Path(f"./transkribus_layout_files/{pecha_id}")
     except:
         print("Invalid Pecha id ....")
-    manual_transcribe = Path("./transcript/stok_test").read_text()
+    manual_transcribe = Path("./transcript/stok_test").read_text(encoding='utf-8')
     transcripts = get_transcript_list(manual_transcribe)
-    layout_files = list(input_path.iterdir())
+    layout_files = list(layout_path.iterdir())
     layout_files.sort()
     for i, (layout_file, transcript) in enumerate(zip(layout_files, transcripts)):
         xml = read_xml(layout_file)
@@ -332,9 +336,9 @@ def apply_transcript(pecha_id):
             print(layout_file)
             print(f"number of boxes {len(sim_box)} number of line {len(texts)}")
         head = get_head(layout_file)
-        serialize_change(sim_box, texts, layout_file.stem, head, pecha_id)
-    get_images(manual_folder_path, pecha_id)
-    get_res_file(manual_folder_path, pecha_id)
+        serialize_change(sim_box, texts, layout_file.stem, head, output_layout_dir)
+    get_images(resource_path, output_resource_dir)
+    get_res_file(resource_path, output_resource_dir)
     print("Output Ready")
 
 

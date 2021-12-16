@@ -162,14 +162,14 @@ def get_content(boxes):
 
 def flow(pecha_id):
     content = f"{pecha_id}\n\n"
-    input_path = Path(f'./Transkribus_output/{pecha_id}/page')
+    layout_file_dir = Path(f'./Transkribus_output/{pecha_id}/page')
     output_path = Path(f'./Transkribus_output/transcript/{pecha_id}.txt')
-    input_pages = list(input_path.iterdir())
-    input_pages.sort()
-    for i, input_page in enumerate(input_pages):
-        print(input_page)
-        content += f"Page no:{input_page.stem}\n"
-        xml = read_xml(input_page)
+    layout_file_paths = list(layout_file_dir.iterdir())
+    layout_file_paths.sort()
+    for i, layout_file_path in enumerate(layout_file_paths):
+        print(layout_file_path)
+        content += f"Page no:{layout_file_path.stem}\n"
+        xml = read_xml(layout_file_path)
         boxes = create_box(xml)
         vertical_sorted = vertical_sort(boxes)
         sorted_boxes = horizontal_sort(vertical_sorted)

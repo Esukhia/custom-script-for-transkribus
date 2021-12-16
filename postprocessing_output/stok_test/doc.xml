@@ -12,7 +12,7 @@
         <thumbUrl>https://files.transkribus.eu/Get?id=MGMIUGTYHFBPUHEHSGRVKBHW&amp;fileType=thumb</thumbUrl>
         <status>0</status>
         <fimgStoreColl>TrpDoc_DEA_500590</fimgStoreColl>
-        <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
+        <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
         <origDocId>0</origDocId>
         <collectionList>
             <colList>
@@ -31,8 +31,8 @@
             <docId>-1</docId>
             <pageNr>1</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990014.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990014.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990014.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990014.jpg</thumbUrl>
             <imgFileName>37990014.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -41,12 +41,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>1</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990014.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990014.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051110</timestamp>
+                    <timestamp>1639653027395</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -57,6 +57,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -69,8 +70,8 @@
             <docId>-1</docId>
             <pageNr>2</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990015.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990015.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990015.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990015.jpg</thumbUrl>
             <imgFileName>37990015.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -79,12 +80,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>2</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990015.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990015.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051113</timestamp>
+                    <timestamp>1639653027410</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -95,6 +96,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -107,8 +109,8 @@
             <docId>-1</docId>
             <pageNr>3</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990016.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990016.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990016.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990016.jpg</thumbUrl>
             <imgFileName>37990016.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -117,12 +119,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>3</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990016.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990016.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051115</timestamp>
+                    <timestamp>1639653027442</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -133,6 +135,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -145,8 +148,8 @@
             <docId>-1</docId>
             <pageNr>4</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990017.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990017.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990017.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990017.jpg</thumbUrl>
             <imgFileName>37990017.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -155,12 +158,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>4</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990017.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990017.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051116</timestamp>
+                    <timestamp>1639653027479</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -171,6 +174,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -183,8 +187,8 @@
             <docId>-1</docId>
             <pageNr>5</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990018.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990018.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990018.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990018.jpg</thumbUrl>
             <imgFileName>37990018.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -193,12 +197,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>5</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990018.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990018.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051118</timestamp>
+                    <timestamp>1639653027495</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -209,6 +213,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -221,8 +226,8 @@
             <docId>-1</docId>
             <pageNr>6</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990019.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990019.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990019.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990019.jpg</thumbUrl>
             <imgFileName>37990019.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -231,12 +236,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>6</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990019.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990019.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051119</timestamp>
+                    <timestamp>1639653027526</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -247,6 +252,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -259,8 +265,8 @@
             <docId>-1</docId>
             <pageNr>7</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990020.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990020.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990020.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990020.jpg</thumbUrl>
             <imgFileName>37990020.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -269,12 +275,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>7</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990020.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990020.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051121</timestamp>
+                    <timestamp>1639653027542</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -285,6 +291,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -297,8 +304,8 @@
             <docId>-1</docId>
             <pageNr>8</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990021.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990021.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990021.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990021.jpg</thumbUrl>
             <imgFileName>37990021.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -307,12 +314,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>8</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990021.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990021.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051122</timestamp>
+                    <timestamp>1639653027557</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -323,6 +330,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -335,8 +343,8 @@
             <docId>-1</docId>
             <pageNr>9</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990022.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990022.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990022.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990022.jpg</thumbUrl>
             <imgFileName>37990022.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -345,12 +353,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>9</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990022.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990022.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051124</timestamp>
+                    <timestamp>1639653027580</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -361,6 +369,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -373,8 +382,8 @@
             <docId>-1</docId>
             <pageNr>10</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990023.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990023.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990023.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990023.jpg</thumbUrl>
             <imgFileName>37990023.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -383,12 +392,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>10</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990023.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990023.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051125</timestamp>
+                    <timestamp>1639653027595</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -399,6 +408,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>
@@ -411,8 +421,8 @@
             <docId>-1</docId>
             <pageNr>11</pageNr>
             <imageId>0</imageId>
-            <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/37990024.jpg</url>
-            <thumbUrl>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/thumbs/37990024.jpg</thumbUrl>
+            <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/37990024.jpg</url>
+            <thumbUrl>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/thumbs/37990024.jpg</thumbUrl>
             <imgFileName>37990024.jpg</imgFileName>
             <tsList>
                 <transcripts>
@@ -421,12 +431,12 @@
                     <pageId>-1</pageId>
                     <docId>-1</docId>
                     <pageNr>11</pageNr>
-                    <localFolder>/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test</localFolder>
-                    <url>file:/home/kaldan/intership/transkribus/sorting_line/postprocessing_output/stok_test/page/37990024.xml</url>
-                    <status>NEW</status>
+                    <localFolder>C:\Users\kalda\esukhia\custom-script-for-transkribus\postprocessing_output\stok_test</localFolder>
+                    <url>file:/C:/Users/kalda/esukhia/custom-script-for-transkribus/postprocessing_output/stok_test/page/37990024.xml</url>
+                    <status>IN_PROGRESS</status>
                     <userName>LocalDocReader</userName>
                     <userId>0</userId>
-                    <timestamp>1601633051127</timestamp>
+                    <timestamp>1639653027611</timestamp>
                     <note></note>
                     <md5Sum></md5Sum>
                     <nrOfRegions>0</nrOfRegions>
@@ -437,6 +447,7 @@
                     <nrOfWordsInLines>0</nrOfWordsInLines>
                     <nrOfWords>0</nrOfWords>
                     <nrOfTranscribedWords>0</nrOfTranscribedWords>
+                    <nrOfCharsInLines>0</nrOfCharsInLines>
                 </transcripts>
             </tsList>
             <width>2204</width>

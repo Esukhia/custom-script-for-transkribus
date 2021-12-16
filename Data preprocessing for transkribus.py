@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from statistics import mean
 from collections import defaultdict 
 
+from make_training_data import make_output_dir
 
 def read_xml(xml):
     '''
@@ -231,11 +232,8 @@ def get_head(xml):
     return head
 
 
-def serialize_change(sim_box, texts, file_name, head):
+def serialize_change(sim_box, texts, head, layout_file_name, output_path):
     transcribe = ''
-#     if len(texts) < len(sim_box):
-#         for i in range(len(texts),len(sim_box)):
-#             texts.append('')
     result = head
     for i, (line, text) in enumerate(zip(sim_box.items(), texts)):
         poly = line[1]['poly_coord']
@@ -246,8 +244,7 @@ def serialize_change(sim_box, texts, file_name, head):
         result += f'<TextEquiv>\n<Unicode>{texts[i]}</Unicode>\n</TextEquiv>\n</TextLine>\n'
         transcribe += texts[i] + '\n'
     result += f'<TextEquiv>\n<Unicode>{transcribe}</Unicode>\n</TextEquiv>\n</TextRegion>\n</Page>\n</PcGts>'
-    f = open(f'./output/page/{file_name}.xml', 'w+')
-    f.write(result)
+    (output_path / f"{layout_file_name}.xml").write_text(result, encoding="utf-8")
     pass
 
 
@@ -285,32 +282,16 @@ def get_transcript_list(text):
     return re.split('\[.+\]', text)[1:]
 
 
-def get_transcript(text):
-    """Get transcript text in a page.
-
-    Args:
-        text (str): transcript text of a page
-
-    Returns:
-        list: list containing line of transcript from a page
-    """
-    result = []
-    lines = text.splitlines()
-    for line in lines:
-        if line:
-            result.append(line)
-    return result
-
-
 def post_process(pecha_id):
     try:
-        layout_path = Path(f'./transkribus_layout_files/{pecha_id}/page')
+        layout_file_dir = Path(f'./transkribus_layout_files/{pecha_id}/page')
         resource_path = Path(f'./transkribus_layout_files/{pecha_id}')
     except:
         print('Invalid Pecha id ....')
-    layout_files = list(layout_path.iterdir())
+    layout_files = list(layout_file_dir.iterdir())
     layout_files.sort()
-    output_path = Path(f'./postprocessing_output/{pecha_id}/page').mkdir(parents=True, exist_ok=True)
+    output_layout_path = Path(f'./postprocessing_output/{pecha_id}/page').mkdir(parents=True, exist_ok=True)
+    output_resource_path = output_layout_path.parent
     for i, layout_file in enumerate(layout_files):
         xml = read_xml(layout_file)
         print(layout_file.stem)
@@ -319,14 +300,13 @@ def post_process(pecha_id):
             vertical_sorted = vertical_sort(boxes)
             sorted_boxes = horizontal_sort(vertical_sorted)
             sim_box = simplification(sorted_boxes)
-            sim_box = rm_overlap(sim_box)
             texts = ["" for box in range(len(sim_box))]
             head = get_head(layout_file)
-            serialize_change(sim_box, texts, layout_file.stem, head, pecha_id)
-    get_images(resource_path, output_path)
-    get_res_file(resource_path, output_path)
+            serialize_change(sim_box, texts, head, layout_file.stem, output_layout_path)
+    get_images(resource_path, output_resource_path)
+    get_res_file(resource_path, output_resource_path)
     print('Output Ready')
 
 if __name__ =="__main__":
-    apply_transcript()
+    post_process()
 
