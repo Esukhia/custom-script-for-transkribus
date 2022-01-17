@@ -111,11 +111,13 @@ def get_main_region(regions):
     for region in regions:
         lines = region.find_all('TextLine')
         len_lines.append(len(lines))
-    return len_lines.index(max(len_lines))
+    main_region = regions[len_lines.index(max(len_lines))]
+    main_region.Coords["points"] = "100,85 100,870 6100,870 6100,85"
+    return main_region
 
 
 def create_box(xml):
-    '''
+    """
     This function parse the xml file contain. It creates dictionary call boxes which contains text, staring x 
     coordinate of baseline and average y coordinate of baseline.
     
@@ -124,73 +126,85 @@ def create_box(xml):
     
     Returns:
         boxes (dict): Contains text, staring x coordinate of baseline and average y coordinate of baseline.
-    '''
+    """
     boxes = {}
-    soup = BeautifulSoup(xml, 'xml')
-    regions = soup.find_all('TextRegion')
-    main_region = get_main_region(regions)
-    lines = regions[main_region].find_all('TextLine')
-    for i,line in enumerate(lines):
-        boxes[f'box{i}'] = {}
-        poly_coords = get_poly_coord(line.Coords['points'].split())
+    soup = BeautifulSoup(xml, "xml")
+    regions = soup.find_all("TextRegion")
+    try:
+        main_region = get_main_region(regions)
+    except:
+        main_region = 0
+        return boxes
+    lines = main_region.find_all("TextLine")
+    region_borders = main_region.Coords["points"].split()
+    left_border = get_coord(region_borders[0])[0]
+    right_border = get_coord(region_borders[3])[0]
+    for i, line in enumerate(lines):
+        boxes[f"box{i}"] = {}
+        poly_coords = get_poly_coord(line.Coords["points"].split())
         avg_height = get_avg_height(poly_coords)
-        baseline_coords = line.Baseline['points'].split() # Extracting all coordinates of baseline points
-        start_base_point = get_coord(baseline_coords[0]) # Getting x coordinate of staring point of baseline point
+        baseline_coords = line.Baseline["points"].split()
+        start_base_point = get_coord(baseline_coords[0])
         end_base_point = get_coord(baseline_coords[-1])
-        base_y_avg = get_y_avg(baseline_coords) # Getting average of y coordinates of baseline points
+        base_y_avg = get_y_avg(baseline_coords)
         line_indicator = get_line_indicator(baseline_coords)
-        boxes[f'box{i}']['bl_start_x'] = int(start_base_point[0])
-        boxes[f'box{i}']['bl_start_y'] = int(base_y_avg)
-        boxes[f'box{i}']['bl_end_x'] = int(end_base_point[0])
-        boxes[f'box{i}']['bl_end_y'] = int(base_y_avg)
-        boxes[f'box{i}']['bl_length'] = get_baseline_length(int(start_base_point[0]),base_y_avg,int(end_base_point[0]),base_y_avg)
-        boxes[f'box{i}']['avg_height'] = int(avg_height)
-        boxes[f'box{i}']['line_indicator'] = int(line_indicator)
-    return boxes         
+        boxes[f"box{i}"]["bl_start_x"] = int(start_base_point[0])
+        boxes[f"box{i}"]["bl_start_y"] = int(base_y_avg)
+        boxes[f"box{i}"]["bl_end_x"] = int(end_base_point[0])
+        boxes[f"box{i}"]["bl_end_y"] = int(base_y_avg)
+        boxes[f"box{i}"]["bl_length"] = get_baseline_length(
+            int(start_base_point[0]), base_y_avg, int(end_base_point[0]), base_y_avg
+        )
+        boxes[f"box{i}"]["avg_height"] = int(avg_height)
+        boxes[f"box{i}"]["line_indicator"] = int(line_indicator)
+        boxes[f"box{i}"]["left_border"] = int(left_border)
+        boxes[f"box{i}"]["right_border"] = int(right_border)
+    return boxes
 
 
 def vertical_sort(boxes):
-    result = sorted(boxes.items(), key = lambda x: x[1]['line_indicator'])
+    result = sorted(boxes.items(), key=lambda x: x[1]["line_indicator"])
     return dict(result)
 
 
 def horizontal_sort(boxes):
     res = defaultdict(list)
     sorted_box = {}
-    for key,box in boxes.items():
-        res[box['line_indicator']].append(key)
+    for key, box in boxes.items():
+        res[box["line_indicator"]].append(key)
     res = dict(res)
-    for key,re in res.items():
+    for key, re in res.items():
         sub_box = {key: boxes[key] for key in re}
-        sorted_sub_box = dict(sorted(sub_box.items(), key = lambda x: x[1]['bl_start_x']))
+        sorted_sub_box = dict(sorted(sub_box.items(), key=lambda x: x[1]["bl_start_x"]))
         sorted_box.update(sorted_sub_box)
     return sorted_box
 
 
 def line_simplification(sub_box, line_num):
     line = None
-    start = min(sub_box.items(), key = lambda x: x[1]['bl_start_x'] )[1]['bl_start_x']
-    end = max(sub_box.items(), key = lambda x: x[1]['bl_end_x'] )[1]['bl_end_x']
-    longest_baseline = max(sub_box.items(), key = lambda x: x[1]['bl_length'])
-    height = longest_baseline[1]['avg_height']
-    y_avg = longest_baseline[1]['bl_start_y']
-    line_indicator = longest_baseline[1]['line_indicator']
-    poly_x1 = start
-    poly_y1 = int(y_avg - height*1.25)
-    poly_x2 = end
-    poly_y2 = int(y_avg - height*1.25)
-    poly_x3 = end
-    poly_y3 = y_avg + height//2
-    poly_x4 = start
-    poly_y4 = y_avg + height//2
-    baseline_length = get_baseline_length(start,y_avg,end,y_avg)
-    if baseline_length >400 and line_indicator != 0:
-        line ={
-            f'l{line_num}':{
-                'bl_points': f'{start},{y_avg} {end},{y_avg}',
-            'poly_coord': f'{poly_x4},{poly_y4} {poly_x3},{poly_y3} {poly_x2},{poly_y2} {poly_x1},{poly_y1}'
+    start = min(sub_box.items(), key=lambda x: x[1]["bl_start_x"])[1]["bl_start_x"]
+    end = max(sub_box.items(), key=lambda x: x[1]["bl_end_x"])[1]["bl_end_x"]
+    left_edge = min(sub_box.items(), key=lambda x: x[1]["bl_start_x"])[1]["left_border"]
+    right_edge = max(sub_box.items(), key=lambda x: x[1]["bl_end_x"])[1]["right_border"]
+    longest_baseline = max(sub_box.items(), key=lambda x: x[1]["bl_length"])
+    height = longest_baseline[1]["avg_height"]
+    y_avg = longest_baseline[1]["bl_start_y"]
+    line_indicator = longest_baseline[1]["line_indicator"]
+    poly_x1 = left_edge
+    poly_y1 = int(y_avg - 25)
+    poly_x2 = right_edge
+    poly_y2 = int(y_avg - 25)
+    poly_x3 = right_edge
+    poly_y3 = y_avg + 25
+    poly_x4 = left_edge
+    poly_y4 = y_avg + 25
+    baseline_length = get_baseline_length(start, y_avg, end, y_avg)
+    if baseline_length > 400 and line_indicator != 0:
+        line = {
+            f"l{line_num}": {
+                "bl_points": f"{left_edge},{y_avg} {right_edge},{y_avg}",
+                "poly_coord": f"{poly_x4},{poly_y4} {poly_x3},{poly_y3} {poly_x2},{poly_y2} {poly_x1},{poly_y1}",
             }
-
         }
     return line
 
@@ -215,7 +229,7 @@ def get_region_coord(xml):
     soup = BeautifulSoup(xml, 'xml')
     regions = soup.find_all('TextRegion')
     main_region = get_main_region(regions)
-    poly_coord = regions[main_region].Coords['points']
+    poly_coord = main_region.Coords['points']
     return poly_coord
 
 
@@ -290,7 +304,8 @@ def post_process(pecha_id):
         print('Invalid Pecha id ....')
     layout_files = list(layout_file_dir.iterdir())
     layout_files.sort()
-    output_layout_path = Path(f'./postprocessing_output/{pecha_id}/page').mkdir(parents=True, exist_ok=True)
+    Path(f'./postprocessing_output/{pecha_id}/page').mkdir(parents=True, exist_ok=True)
+    output_layout_path = Path(f'./postprocessing_output/{pecha_id}/page')
     output_resource_path = output_layout_path.parent
     for i, layout_file in enumerate(layout_files):
         xml = read_xml(layout_file)
@@ -308,5 +323,6 @@ def post_process(pecha_id):
     print('Output Ready')
 
 if __name__ =="__main__":
-    post_process()
+    pecha_id = "kdsb_test"
+    post_process(pecha_id)
 

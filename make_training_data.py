@@ -110,7 +110,9 @@ def get_main_region(regions):
     for region in regions:
         lines = region.find_all("TextLine")
         len_lines.append(len(lines))
-    return len_lines.index(max(len_lines))
+    main_region = regions[len_lines.index(max(len_lines))]
+    main_region.Coords["points"] = "100,85 100,870 6100,870 6100,85"
+    return main_region
 
 
 def create_box(xml):
@@ -132,8 +134,8 @@ def create_box(xml):
     except:
         main_region = 0
         return boxes
-    lines = regions[main_region].find_all("TextLine")
-    region_borders = regions[main_region].Coords["points"].split()
+    lines = main_region.find_all("TextLine")
+    region_borders = main_region.Coords["points"].split()
     left_border = get_coord(region_borders[0])[0]
     right_border = get_coord(region_borders[3])[0]
     for i, line in enumerate(lines):
@@ -251,7 +253,7 @@ def get_region_coord(xml):
     soup = BeautifulSoup(xml, "xml")
     regions = soup.find_all("TextRegion")
     main_region = get_main_region(regions)
-    poly_coord = regions[main_region].Coords["points"]
+    poly_coord = main_region.Coords["points"]
     return poly_coord
 
 

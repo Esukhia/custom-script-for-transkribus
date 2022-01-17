@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>892633</docId>
+    <title>kdsb_test</title>
+    <uploadTimestamp>1642398499934</uploadTimestamp>
+    <uploader>tibetannlp@gmail.com</uploader>
+    <uploaderId>41832</uploaderId>
+    <nrOfPages>10</nrOfPages>
+    <pageId>34176718</pageId>
+    <url>https://files.transkribus.eu/Get?id=QVLBUHHVGNAZFHJIEJLFDOGT&amp;fileType=view</url>
+    <thumbUrl>https://files.transkribus.eu/Get?id=QVLBUHHVGNAZFHJIEJLFDOGT&amp;fileType=thumb</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_892633</fimgStoreColl>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>124583</colId>
+            <colName>TibSchol</colName>
+            <description>created by rachael.griffiths@oeaw.ac.at</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+</trpDocMetadata>

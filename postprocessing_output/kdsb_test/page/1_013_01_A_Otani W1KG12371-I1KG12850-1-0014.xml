@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-01-17T11:17:53.919+05:30</Created>
+        <LastChange>2022-01-17T07:50:57.164+01:00</LastChange>
+        <TranskribusMetadata docId="892633" pageId="34176724" pageNr="7" tsid="73370431" status="IN_PROGRESS" userId="41832" imgUrl="https://files.transkribus.eu/Get?id=CUDYVTBZHVEBCLNXIKMPHTPQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CKGMUQFOVZEGVWHKKJFRLZAS" imageId="27408699"/>
+    </Metadata>
+    <Page imageFilename="1_013_01_A_Otani W1KG12371-I1KG12850-1-0014.jpg" imageWidth="6155" imageHeight="945">
+<TextRegion id = "r1">
+<Coords points = "100,85 100,870 6100,870 6100,85"/>
+<TextLine id="r1l0">
+<Coords points="100,286 6100,286 6100,236 100,236"/>
+<Baseline points="100,261 6100,261"/>
+<TextEquiv>
+<Unicode></Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l1">
+<Coords points="100,376 6100,376 6100,326 100,326"/>
+<Baseline points="100,351 6100,351"/>
+<TextEquiv>
+<Unicode></Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l2">
+<Coords points="100,471 6100,471 6100,421 100,421"/>
+<Baseline points="100,446 6100,446"/>
+<TextEquiv>
+<Unicode></Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l3">
+<Coords points="100,563 6100,563 6100,513 100,513"/>
+<Baseline points="100,538 6100,538"/>
+<TextEquiv>
+<Unicode></Unicode>
+</TextEquiv>
+</TextLine>
+<TextLine id="r1l4">
+<Coords points="100,656 6100,656 6100,606 100,606"/>
+<Baseline points="100,631 6100,631"/>
+<TextEquiv>
+<Unicode></Unicode>
+</TextEquiv>
+</TextLine>
+<TextEquiv>
+<Unicode>
+
+
+
+
+</Unicode>
+</TextEquiv>
+</TextRegion>
+</Page>
+</PcGts>
